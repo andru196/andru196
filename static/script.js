@@ -35,7 +35,7 @@ Telegram.WebApp.onEvent('mainButtonClicked', function(){
 	tg.sendData("some string that we need to send"); 
 	//при клике на основную кнопку отправляем данные в строковом виде
 });
-let usercard = document.getElementById("usercard"); //получаем блок usercard 
+var usercard = document.getElementById("usercard"); //получаем блок usercard 
 
 var profName = document.createElement('p'); //создаем параграф
 profName.innerText = `${tg.initDataUnsafe.user.first_name}
