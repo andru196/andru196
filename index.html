@@ -8,7 +8,7 @@
 	<script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
 	<script type="text/javascript">
 		var initMessageId = 3;
-		var services = JSON.parse('{{ services_json|escapejs }}');
+		var services = [1, 2, 3, 4, 5, 6];
 
 		var userId = JSON.parse(new URLSearchParams(window.Telegram.WebApp.initData).get('user')).id;
 
