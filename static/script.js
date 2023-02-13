@@ -10,8 +10,8 @@ var selectedTimeIsoformat = null;
 var WebApp = window.Telegram.WebApp;
 var MainButton = WebApp.MainButton;
 var BackButton = WebApp.BackButton;
-MainButton.hide();
-BackButton.hide();
+// MainButton.hide();
+// BackButton.hide();
 MainButton.setText("ВЫБРАТЬ ДАТУ И ВРЕМЯ");
 
 
