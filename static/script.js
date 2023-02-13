@@ -11,7 +11,7 @@ var WebApp = window.Telegram.WebApp;
 var MainButton = WebApp.MainButton;
 var BackButton = WebApp.BackButton;
 MainButton.show();
-MainButton.showAlert("hi");
+WebApp.showAlert("Не беспокойтесь. Мы сохраним ваш выбор.");
 // BackButton.hide();
 MainButton.setText("ВЫБРАТЬ ДАТУ И ВРЕМЯ");
 
