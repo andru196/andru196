@@ -52,11 +52,12 @@ $('.select_service').click(function() {
 		if (!MainButton.isVisible) {
 			MainButton.show();
 		}
-	} else {
-		if (MainButton.isVisible) {
-			MainButton.hide();
-		}
-	}
+	} 
+	// else {
+	// 	if (MainButton.isVisible) {
+	// 		MainButton.hide();
+	// 	}
+	// }
 });
 
 
