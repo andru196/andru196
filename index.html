@@ -11,7 +11,7 @@
 		var services = [1, 2, 3, 4, 5, 6];
 		var services = [1, 2, 3, 4, 5, 6];
 
-		var userId = JSON.parse(new URLSearchParams(window.Telegram.WebApp.initData).get('user')).id;
+		//var userId = JSON.parse(new URLSearchParams(window.Telegram.WebApp.initData).get('user')).id;
 
 		let initData = new URLSearchParams(window.Telegram.WebApp.initData);
 		var initDataHash = initData.get('hash');
@@ -22,80 +22,15 @@
 	</script>
 </head>
 <body>
-	<div id="main">
-		<div id="select_services">
-			<div class="header_big">Выберите услуги</div>
+	<body>
+		<div id="usercard"> <!--Карта профиля, человека, который к нам обратился-->
 		</div>
-		<div id="select_date_and_time">
-			<div class="header_big">Выберите дату и время</div>
-			<div id="select_date_and_time-dates">
-			</div>
-				<h2>Шаблон формы</h2>
-				<fieldset>
-				  <legend>Персональные данные</legend>
-				  <ul>
-					<li>
-					  <label for="name">Имя:*</label>
-					  <input type="text" name="name" placeholder="Иван Иванов" id="name" required>
-					</li>
-					<li>
-					  <label for="age">Возраст:</label>
-					  <input type="number" name="age" placeholder="27" id="age" min="0" max="125">
-					</li>
-				  </ul>
-				</fieldset>
-				<fieldset>
-				  <legend>Контакты</legend>
-				  <ul>
-					<li>
-					  <label for="email">E-mail:*</label>
-					  <input type="email" name="mail" placeholder="ivanov@gmail.com" id="email" required>
-					</li>
-					<li>
-					  <label for="number">Телефон:*</label>
-					  <input type="tel" name="phone" placeholder="+7 000 000-00-00" id="number" maxlength="21" required>
-					</li>
-				  </ul>
-				</fieldset>
-				<div>
-				  <label for="message">Увлечения</label>
-				  <textarea name="comment" placeholder="Расскажите обо всём, что для вас важно" id="message"></textarea>
-				</div>
-				<fieldset>
-				  <legend>Учёба</legend>
-				  <ul>
-					<li>
-					  <input type="checkbox" name="intensive-courses" id="courses" checked>
-					  <label for="courses">Прохожу курсы</label>
-					</li>
-					<li>
-					  <input type="checkbox" name="books" id="books">
-					  <label for="books">Читаю книги</label>
-					</li>
-					<li>
-					  <input type="checkbox" name="video" id="video">
-					  <label for="video">Смотрю видео</label>
-					</li>
-				  </ul>
-				</fieldset>
-				<fieldset>
-				  <legend>Предпочтения</legend>
-				  <ul>
-					<li>
-					  <input type="radio" name="preference" id="front" value="frontend" checked>
-					  <label for="front">Фронтенд-разработка</label>
-					</li>
-					<li>
-					  <input type="radio" name="preference" id="back" value="backend">
-					  <label for="back">Бэкенд-разработка</label>
-					</li>
-				  </ul>
-				</fieldset>
-			<hr>
-			<div id="select_date_and_time-times">
-			</div>
-		</div>
-	</div>
+		<p>Just text</p> <!--Просто текст для проверки-->
+		<a class="link" href="https://mihailgok.ru">Link</a> <!--Просто ссылка для проверки-->
+		<p class="hint">Some little hint</p> <!--Просто текст-подсказка для проверки-->
+		<button id="btn" class="button">Show/Hide Main Button</button> <!--Кнопка, чтобы скрыть / показать основную кнопку-->
+		<button id="btnED" class="button">Enable/Disable Main Button</button> <!--Кнопка, чтобы сделать кнопку активной/неактивной-->
+	 </body>
 	<script src="/andru196/static/script.js"></script>
 </body>
 </html>
