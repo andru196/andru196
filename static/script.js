@@ -10,7 +10,8 @@ var selectedTimeIsoformat = null;
 var WebApp = window.Telegram.WebApp;
 var MainButton = WebApp.MainButton;
 var BackButton = WebApp.BackButton;
-// MainButton.hide();
+MainButton.show();
+MainButton.showAlert("hi");
 // BackButton.hide();
 MainButton.setText("ВЫБРАТЬ ДАТУ И ВРЕМЯ");
 
@@ -21,15 +22,15 @@ var currentSection = 'select_services';
 
 function loadSelectServices() {
 	MainButton.setText("ВЫБРАТЬ ДАТУ И ВРЕМЯ");
-	$('#select_date_and_time').hide();
+	//$('#select_date_and_time').hide();
 	$('#select_services').show();
 	currentSection = 'select_services';
 }
 
 function loadSelectDateAndTime() {
 	MainButton.setText("ЗАПИСАТЬСЯ");
-	$('#select_services').hide();
-	$('#select_date_and_time-times').hide();
+	// $('#select_services').hide();
+	// $('#select_date_and_time-times').hide();
 	loadDates();
 	$('#select_date_and_time').show();
 	currentSection = 'select_date_and_time';
@@ -191,7 +192,7 @@ BackButton.onClick(function() {
 	if (currentSection == 'select_date_and_time') {
 		loadSelectServices();
 		if (BackButton.isVisible) {
-			BackButton.hide();
+			//BackButton.hide();
 		}
 	}
 });
