@@ -48,11 +48,11 @@ $('.select_service').click(function() {
 		selectedServicesIndexes.splice(selectedServicesIndexes.indexOf(serviceIndex), 1);
 	}
 
-	if (selectedServicesIndexes.length > 0) {
-		if (!MainButton.isVisible) {
+	//if (selectedServicesIndexes.length > 0) {
+		//if (!MainButton.isVisible) {
 			MainButton.show();
-		}
-	} 
+		//}
+	//} 
 	// else {
 	// 	if (MainButton.isVisible) {
 	// 		MainButton.hide();
