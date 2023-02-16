@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.092587fa.css",
-    "main.js": "/static/js/main.db08642f.js",
-    "static/media/Ubuntu-Light.ttf": "/static/media/Ubuntu-Light.0dd2d5986e2731a16ee7.ttf",
-    "static/media/Ubuntu-MediumItalic.ttf": "/static/media/Ubuntu-MediumItalic.d68d789a6be6e034d129.ttf",
-    "static/media/Ubuntu-Regular.ttf": "/static/media/Ubuntu-Regular.1cbb1b79a23478cc89ad.ttf",
-    "static/media/Ubuntu-Medium.ttf": "/static/media/Ubuntu-Medium.e37c5546eb1a6efc4818.ttf",
-    "static/media/Ubuntu-Bold.ttf": "/static/media/Ubuntu-Bold.fec2d0f1431a6114a6ce.ttf",
-    "index.html": "/index.html",
-    "main.092587fa.css.map": "/static/css/main.092587fa.css.map",
-    "main.db08642f.js.map": "/static/js/main.db08642f.js.map"
+    "main.css": "./static/css/main.2de9696c.css",
+    "main.js": "./static/js/main.db08642f.js",
+    "static/media/Ubuntu-Light.ttf": "./static/media/Ubuntu-Light.0dd2d5986e2731a16ee7.ttf",
+    "static/media/Ubuntu-MediumItalic.ttf": "./static/media/Ubuntu-MediumItalic.d68d789a6be6e034d129.ttf",
+    "static/media/Ubuntu-Regular.ttf": "./static/media/Ubuntu-Regular.1cbb1b79a23478cc89ad.ttf",
+    "static/media/Ubuntu-Medium.ttf": "./static/media/Ubuntu-Medium.e37c5546eb1a6efc4818.ttf",
+    "static/media/Ubuntu-Bold.ttf": "./static/media/Ubuntu-Bold.fec2d0f1431a6114a6ce.ttf",
+    "index.html": "./index.html",
+    "main.2de9696c.css.map": "./static/css/main.2de9696c.css.map",
+    "main.db08642f.js.map": "./static/js/main.db08642f.js.map"
   },
   "entrypoints": [
-    "static/css/main.092587fa.css",
+    "static/css/main.2de9696c.css",
     "static/js/main.db08642f.js"
   ]
 }
