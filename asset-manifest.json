@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "./static/css/main.26f13694.css",
-    "main.js": "./static/js/main.861041ee.js",
+    "main.css": "./static/css/main.5a97d075.css",
+    "main.js": "./static/js/main.329cdda4.js",
     "static/media/Ubuntu-Light.ttf": "./static/media/Ubuntu-Light.0dd2d5986e2731a16ee7.ttf",
     "static/media/Ubuntu-MediumItalic.ttf": "./static/media/Ubuntu-MediumItalic.d68d789a6be6e034d129.ttf",
     "static/media/Ubuntu-Regular.ttf": "./static/media/Ubuntu-Regular.1cbb1b79a23478cc89ad.ttf",
     "static/media/Ubuntu-Medium.ttf": "./static/media/Ubuntu-Medium.e37c5546eb1a6efc4818.ttf",
     "static/media/Ubuntu-Bold.ttf": "./static/media/Ubuntu-Bold.fec2d0f1431a6114a6ce.ttf",
     "index.html": "./index.html",
-    "main.26f13694.css.map": "./static/css/main.26f13694.css.map",
-    "main.861041ee.js.map": "./static/js/main.861041ee.js.map"
+    "main.5a97d075.css.map": "./static/css/main.5a97d075.css.map",
+    "main.329cdda4.js.map": "./static/js/main.329cdda4.js.map"
   },
   "entrypoints": [
-    "static/css/main.26f13694.css",
-    "static/js/main.861041ee.js"
+    "static/css/main.5a97d075.css",
+    "static/js/main.329cdda4.js"
   ]
 }
